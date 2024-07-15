@@ -8,7 +8,7 @@ const Home = ({setGender}) => {
         navigate("/trends")
     }
   return (
-    <div className="h-dvh flex mt-56 justify-center space-x-12">
+    <div className="h-dvh flex pt-56 justify-center space-x-12 grad">
         <button className="rounded-full h-32 w-32 bg-blue-300 hover:bg-blue-400 flex justify-center items-center" onClick={(()=>sendResp("M"))}>
           <img src="https://www.iconpacks.net/icons/2/free-male-symbol-icon-2239-thumb.png" className="h-12 w-12"></img>
           </button>
